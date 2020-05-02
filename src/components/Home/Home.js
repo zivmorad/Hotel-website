@@ -2,7 +2,7 @@ import React from 'react';
 import Showcase from '../Shwocase/Showcase';
 import Info from '../Info/Info';
 import Features from '../Features/Features';
-import './Home.css';
+
 
 
 const Home =()=>{
@@ -11,7 +11,7 @@ const Home =()=>{
             <Showcase/>
             <Info/>
             <Features/>
-            <p className='rights'>Hotel BT &copy; 2020, All Rights Reserved</p>
+            
         </div>
     )
 }

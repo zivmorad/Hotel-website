@@ -1,0 +1,40 @@
+.reviews-form{
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    background: url('../../../img/test-bg.jpg') no-repeat center center/cover;
+}
+
+.reviews-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.reviews-container h1{
+    color: white;
+    font-size: 60px;
+    line-height: 1.6em;
+    padding-top: 100px;
+}
+.review-item{
+    display: flex;
+    flex-direction: row;
+    background:coral;
+    margin: 20px 50px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow:0 1px 5px 1px rgb(73, 73, 73);
+}
+.review-item img{
+    border-radius: 50%;
+    height: 150px;
+}
+.review-item p{
+    margin: 30px;
+    text-align: justify;
+}
+
+
+
+
