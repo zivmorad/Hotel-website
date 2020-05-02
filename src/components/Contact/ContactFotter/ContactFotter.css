@@ -1,0 +1,16 @@
+.fotter-form{
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+}
+.box{
+    width: 32.8%;
+    text-align: center;
+    height: 100%;
+    padding: 50px;
+    background-color: rgb(41, 41, 41);
+    color: white;
+}
+.fotter-icon{
+    padding-bottom: 20px;
+}

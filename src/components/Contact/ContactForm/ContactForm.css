@@ -1,0 +1,38 @@
+.Contact-form{
+    display: flex;
+    flex-direction: column;
+    padding:50px;
+    height: 500px;
+    background: rgb(243, 243, 243);
+}
+.Contact-form h1{
+    padding-bottom: 30px;
+    font-size: 60px;
+}
+.Contact-form p{
+    padding-bottom: 30px
+}
+
+.form-item,.form-message-item{
+    display: flex;
+    flex-direction:column;
+}
+.form-item input{
+    padding:10px ;
+    border-radius: 5px;
+}
+.form-message-item input{
+    padding: 30px;
+    border-radius: 5px;
+}
+.btn-form{
+    padding: 15px;
+    margin: 10px;
+    background: rgb(43, 43, 43);
+    color: coral;
+    font-weight: bold;
+    border-radius: 5px; outline: none;
+}
+.btn-form:hover{
+    background: rgb(27, 27, 27);
+}
