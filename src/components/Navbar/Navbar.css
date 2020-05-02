@@ -1,0 +1,24 @@
+.nav-form{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    background-color:#333;
+    overflow: auto;
+    box-shadow: 0px 2px 5px 1px grey;
+}
+
+.link-form{
+    padding: 10px;
+}
+.link{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    margin: 15px 30px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.link:hover{
+    background-color:rgb(58, 58, 58) ;
+    color: coral;
+}
