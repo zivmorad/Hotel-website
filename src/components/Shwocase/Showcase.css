@@ -1,0 +1,31 @@
+.showcase-form{
+    background: url('../../img/showcase.jpg') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+}
+.showcase-container{
+    text-align: center;
+    padding-top: 170px;
+    color: white;
+}
+.showcase-content h1{
+   font-size: 60px;
+   line-height: 1.5em;
+}
+.text-primary{
+    color:coral;
+} 
+
+.about-page-link{
+    text-decoration: none;
+    color: white;
+    background: rgb(29, 29, 29);
+    padding: 12px;
+    line-height: 8em;
+    border-radius: 5px;
+}
+.about-page-link:hover{
+    background: black;
+    color:coral;
+}

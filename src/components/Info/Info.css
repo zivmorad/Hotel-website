@@ -1,0 +1,21 @@
+.info-form{
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+}
+.info-img{
+    width: 50%;
+    background: url('../../img/photo-2.jpg') no-repeat center center;
+    min-height: 100%;
+}
+.info-content{
+    background: rgb(12, 12, 12);
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    color: white;
+}
+.info-content h2{
+    padding-bottom: 20px;
+}
